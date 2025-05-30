@@ -1,0 +1,136 @@
+/* Part 1: Mengatur tampilan web secara umum */
+/* Mengatur font yang akan digunakan dengan cara mengaksesmya secara online dengan menggunakan perintah import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    
+    }
+
+
+/* Mengatur padding dan margin keseluruhan halaman web */
+header { 
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Part 2: Mengatur setiap kelas yang sudah didefenisikan di HTML */
+.logo{
+    font-size:100pv;
+    color:rgb(0, 5, 68)
+}
+
+/* Mengatur Logo bagian span */
+.logo span{
+    color:rgb(139, 155, 0)
+}
+
+.navigation{
+    margin-left: 30px;
+}
+
+.navigation a {
+    font-size:medium;
+    color: rgb(98, 98, 224);
+    margin-right: 30px;
+    text-decoration: 0;
+    font-weight: 400;
+    transition: .0s;
+}
+
+.navigation a:hover {
+    color: rgb(122, 0, 112);
+    text-decoration: underline;
+}
+
+.home {
+    position: relative;
+    width: 100%; 
+    height: 83vh; 
+    background: url('WhatsApp Image 2025-04-17 at 13.17.46.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.content {
+    max-width: 500px;
+    color: #000000;
+}
+
+
+.content h1 {
+    font-size: 48px;
+    color:rgb(126, 117, 203);
+}
+
+.content h4 {
+    font-size: 34px;
+    color:rgb(136, 72, 195);
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+    color:rgb(104, 45, 252);
+}
+
+
+.btn-group a{
+    color:rgb(255, 255, 255) ;
+    background-color: rgb(75, 142, 181) ;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-group a:hover{
+    color: white;
+    background-color: rgb(149, 112, 229);
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 80px;
+}
+
+.social-icons a {
+    background: rgb(8, 248, 0);
+    width: 35px; 
+    height: 35px; 
+    line-height: 35px; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+ }
+ .btn-table {
+    display: inline-block;
+    color: white;
+    background-color: rgb(75, 142, 181);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-table:hover {
+    background-color: rgb(149, 112, 229);
+    color: white;
+  }
+.social-icons a:hover{
+    background: rgb(246, 193, 243);
+    color : rgb(38, 38, 38);
+}
