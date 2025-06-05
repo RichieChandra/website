@@ -6,8 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', 'sans-serif';
-    
+    font-family: 'poppins', 'poppins';
     }
 
 
@@ -118,7 +117,7 @@ header {
  .btn-table {
     display: inline-block;
     color: white;
-    background-color: rgb(75, 142, 181);
+    background-color: rgb(192, 92, 92);
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 20px;
@@ -127,7 +126,7 @@ header {
   }
   
   .btn-table:hover {
-    background-color: rgb(149, 112, 229);
+    background-color: rgb(149, 112, 229);0-+
     color: white;
   }
 .social-icons a:hover{
