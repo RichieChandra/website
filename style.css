@@ -49,7 +49,7 @@ header {
 
 .navigation a:hover {
     color: rgb(122, 0, 112);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .home {
